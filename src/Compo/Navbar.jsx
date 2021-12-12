@@ -61,7 +61,7 @@ export default function Navbar() {
               />
               <div class="input-group-append">
                 <button
-                  class="btn"
+                  class="btn btn-outline-danger"
                   type="button"
                   id="button-addon2"
                   style={{backgroundColor:'#ea1d63' , color:'#fff' , padding:'0 19px'}}

@@ -49,6 +49,7 @@
   width: 95%;
   padding: 14px 0;
   margin: 10px auto;
+  text-align: justify;
 }
 .item_img {
   width: 180px;
@@ -58,6 +59,7 @@
 }
 .add_btn {
   border: 1px solid #adadad;
+  text-align: center;
   -webkit-border-radius: 40px 40px 40px 40px;
   -moz-border-radius: 40px 40px 40px 40px;
   border-radius: 40px 40px 40px 40px;
@@ -158,6 +160,11 @@
   margin: 10px auto;
   cursor: pointer;
 }
+.left:hover > #af { color: #ea1d63; }
+.center:hover > #af2 { color: #ea1d63; }
+.right:hover > #af3 { color: #ea1d63; }
+
+
 .center{
   padding: 25px 25px;
   border: 1px solid #adadad;
@@ -191,6 +198,24 @@
 }
 
 
+@media screen and (max-width: 425px) {
+  .home_header_wrapper h5 {
+    color: #adadad;
+    font-size: 13px;
+    cursor: pointer;
+  }
+  .b_item1 {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 14px 0;
+    margin: 10px auto;
+    flex-direction: column;
+    text-align: center;
+  }
+
+}
+
 
 @media screen and (max-width: 480px) {
   .home_body {
@@ -214,6 +239,7 @@
     padding: 14px 0;
     margin: 10px auto;
     flex-direction: column;
+    text-align: center;
   }
   .add_btn{
     width: 40%;
@@ -224,6 +250,13 @@
     flex-direction: column;
     justify-content: space-between;
   }
+  .ContinueShoping p{
+    border: 1px solid #ea1d63;
+    width: 25%;
+    padding: 9px;
+    border-radius: 9px;
+    cursor: pointer;
+}
 }
 
 @media screen and (max-width: 850px) {
@@ -248,6 +281,7 @@
     padding: 14px 0;
     margin: 10px auto;
     flex-direction: column;
+    text-align: center;
   }
   .add_btn{
     width: 40%;
