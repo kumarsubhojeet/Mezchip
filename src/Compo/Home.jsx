@@ -55,6 +55,8 @@ export default function Home() {
                 </div>
               </div>
 
+
+
               <div className="b_item1">
                 <div className="imgg">
                   <img className="item_img" src={bed2} alt="Error" />
@@ -106,7 +108,7 @@ export default function Home() {
                 <div className="pricing_wrapper">
                     <div className="promo_code">
                         <img src={giftbox} className="giftbox" alt="Error" />
-                        <span style={{ color:' #f5b041 '}}>Have a Promo Code</span>
+                        <span style={{ color:' #f5b041 '}}>Have a Promo Code?</span>
                     </div>
 
                     <div className="pricing_details">
@@ -134,19 +136,41 @@ export default function Home() {
                             <p>Delivery</p>
                             <span style={{color:'#3dbdb6'}}>FREE</span>
                         </div>
-                        <hr />
+                    
 
-                        <div className="dt">
+                        <div className="dtp">
                             <p style={{fontWeight:'bold'}}>Total Payable</p>
                             <span>Rs 30,000</span>
                         </div>
-                        <hr />
+                       
 
                         <div className="order_btn">
                             <p>PLACE ORDER</p>
                         </div>
                     </div>
                 </div>
+            </div>
+          </div>
+
+          <div className="body_low">
+            <div className="lower_wapper">
+              <div className="left">
+              <i class="fas fa-tags tags"></i>
+              <h5 >MOST AFFORDABLE</h5>
+              <p style={{color:'#adadad'}}>Find the best exclusives range of products</p>
+              </div>
+
+              <div className="center">
+              <i class="fas fa-tools tags"></i>
+               <h5 >MOST AFFORDABLE</h5>
+               <p style={{color:'#adadad'}}>Find the best exclusives range of products</p>
+              </div>
+
+              <div className="right">
+              <i class="fas fa-bolt tags"></i>
+               <h5 >MOST AFFORDABLE</h5>
+               <p style={{color:'#adadad'}}>Find the best exclusives range of products</p>
+              </div>
             </div>
           </div>
         </div>
